@@ -54,13 +54,7 @@ In the current travel industry, users often face fragmented platforms and scatte
 
     ArangoDB stores data to avoid repeated API calls and improve search efficiency.
 
-🏆 Judging Criteria Alignment
-Criteria	How It Is Addressed
-✅ Innovation	Combines NLP, graph-based search, and hybrid queries to create a unique travel assistant.
-✅ Functionality	Executes structured and unstructured queries, retrieves data from DB or API, and presents in a user-friendly format.
-✅ Technical Excellence	Efficient use of AQL, LangChain, and cuGraph. Handles large datasets and complex graph structures.
-✅ Usability	Clean interface, natural language interaction, and easy-to-interpret results.
-✅ Documentation & Presentation	Clear and well-organized documentation and code.
+
 🛠️ Tech Stack
 1. Backend
 
@@ -178,9 +172,6 @@ WanderBuddy/
 ├── WanderBuddy.py        # Main Python script
 ├── requirements.txt      # Dependencies
 ├── .env                  # Environment variables
-├── utils/                # Utility scripts
-├── db/                   # ArangoDB connection
-├── ai/                   # LLM and LangChain setup
 └── README.md
 
 📊 Visualization Example
@@ -192,22 +183,14 @@ WanderBuddy/
         🟢 Attractions
         🔴 Hotels
 
-🏆 Evaluation Criteria
-Criteria	How It’s Met
-✅ Innovation	Combines NLP, graph-based search, and hybrid queries.
-✅ Functionality	Handles both structured (AQL) and unstructured (LLM) data.
-✅ Technical Excellence	Efficient pathfinding and data processing.
-✅ Usability	Clean interface and responsive AI.
-✅ Documentation	Comprehensive documentation and clear code.
-🏁 Future Improvements
 
-✅ Integrate real-time flight price updates
-✅ Add multi-city travel support
-✅ Enhance visualizations using MapBox
+✅ Integrate real-time flight price updates <br>
+✅ Add multi-city travel support <br>
+✅ Enhance visualizations using Matplotlib <br>
 🤝 Contributors
 
-    [Dinesh Murugan]
-    [Nishanth Thilagar]
+    Dinesh Murugan
+    Nishanth Thilagar
 
 🌟 Acknowledgments
 
