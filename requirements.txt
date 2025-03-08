@@ -1,0 +1,52 @@
+# Core Dependencies
+python-arango
+adb-cloud-connector
+arango-datasets
+
+# AI and Language Model Dependencies
+openai==1.6.1
+langchain==0.1.0
+langchain-openai
+langchain-community
+langgraph
+
+# cuGraph and ArangoDB Graph Integration
+nx-arangodb
+nx-cugraph-cu12 --extra-index-url https://pypi.nvidia.com
+
+# Machine Learning and Data Processing
+numpy
+pandas
+networkx
+
+# Plotting and Visualization
+matplotlib
+
+# Web and HTTP Requests
+requests
+http.client
+
+# Environment Variables
+python-dotenv
+
+# API and Data Parsing
+json
+re
+
+# OpenAI Language Models and Memory
+langchain_openai
+langchain_community
+langchain_community.graphs
+langchain_community.chains
+langchain_core
+langchain.memory
+langchain.agents
+
+# Gradio (for Chatbot)
+gradio
+
+# Random and Utility
+random
+importlib
+time
+hashlib
